@@ -1,6 +1,7 @@
 #include <benchmark/benchmark.h>
 #include <vector>
 #include <iostream>
+#include <cmath>
 
 constexpr size_t n = 1<<26;
 std::vector<float> vec(n); // 256MB
